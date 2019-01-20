@@ -1,0 +1,477 @@
+{
+   bound_relative_root: {
+      x: 0.5,
+      y: 0,
+      z: 0.5,
+   },
+   materials: [
+      {
+         name: "EF:FX/Cheek/Brush1/Transparent",
+         parameters: [
+            {
+               baseColor: "FX",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "EF:face/eyes/HL",
+         parameters: [
+            {
+               baseColor: "HL",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "EF:face/eyes/pupil",
+         parameters: [
+            {
+               baseColor: "pupil",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "EF:face/eyes/white",
+         parameters: [
+            {
+               baseColor: "face",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "F:face/hair/eyebrows",
+         parameters: [
+            {
+               baseColor: "face",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "ImagineGirls_License_White",
+         parameters: [
+            {
+               baseColor: "ImagineGirls_License_White",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "cos1/body/nail",
+         parameters: [
+            {
+               baseColor: "underwear",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "cos1/body/skin",
+         parameters: [
+            {
+               baseColor: "cos1_body",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "cos1/kneesocks",
+         parameters: [
+            {
+               baseColor: "costume1",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "cos1/shoes/cloth",
+         parameters: [
+            {
+               baseColor: "accessories",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 1,
+            },
+            {
+               roughness: 0.14280000000000001,
+            },
+            {
+               opacity: 0.808612,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "cos1/underwear/border",
+         parameters: [
+            {
+               baseColor: "underwear",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "hair0",
+         parameters: [
+            {
+               baseColor: "hair0",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "headset/black",
+         parameters: [
+            {
+               baseColor: "accessories",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+      {
+         name: "headset/transparent",
+         parameters: [
+            {
+               baseColor: "accessories",
+            },
+            {
+               baseColorTint: [
+                  1,
+                  1,
+                  1,
+                  1,
+               ],
+            },
+            {
+               metallic: 0,
+            },
+            {
+               roughness: 1,
+            },
+            {
+               opacity: null,
+            },
+         ],
+         source: "build/sceneform_sdk/default_materials/obj_material.sfm",
+      },
+   ],
+   model: {
+      attributes: [
+         "Position",
+         "TexCoord",
+         "Orientation",
+      ],
+      collision: {},
+      file: "sampledata/R1N4_V2_FREE.obj",
+      name: "R1N4_V2_FREE",
+      recenter: "root",
+   },
+   samplers: [
+      {
+         file: "sampledata/./hair0.png",
+         name: "hair0",
+         pipeline_name: "./hair0.png",
+      },
+      {
+         file: "sampledata/./costume1.png",
+         name: "costume1",
+         pipeline_name: "./costume1.png",
+      },
+      {
+         file: "sampledata/./hair02.png",
+         name: "hair02",
+         params: {
+            usage_type: "Data",
+         },
+         pipeline_name: "./hair02.png",
+      },
+      {
+         file: "sampledata/./cos1_body.png",
+         name: "cos1_body",
+         pipeline_name: "./cos1_body.png",
+      },
+      {
+         file: "sampledata/./face.png",
+         name: "face",
+         pipeline_name: "./face.png",
+      },
+      {
+         file: "sampledata/./HL2.png",
+         name: "HL2",
+         params: {
+            usage_type: "Data",
+         },
+         pipeline_name: "./HL2.png",
+      },
+      {
+         file: "sampledata/./underwear.png",
+         name: "underwear",
+         pipeline_name: "./underwear.png",
+      },
+      {
+         file: "sampledata/./accessories2.png",
+         name: "accessories2",
+         params: {
+            usage_type: "Data",
+         },
+         pipeline_name: "./accessories2.png",
+      },
+      {
+         file: "sampledata/./ImagineGirls_License_White2.png",
+         name: "ImagineGirls_License_White2",
+         params: {
+            usage_type: "Data",
+         },
+         pipeline_name: "./ImagineGirls_License_White2.png",
+      },
+      {
+         file: "sampledata/./ImagineGirls_License_White.png",
+         name: "ImagineGirls_License_White",
+         pipeline_name: "./ImagineGirls_License_White.png",
+      },
+      {
+         file: "sampledata/./pupil.png",
+         name: "pupil",
+         pipeline_name: "./pupil.png",
+      },
+      {
+         file: "sampledata/./accessories.png",
+         name: "accessories",
+         pipeline_name: "./accessories.png",
+      },
+      {
+         file: "sampledata/./FX.png",
+         name: "FX",
+         pipeline_name: "./FX.png",
+      },
+      {
+         file: "sampledata/./HL.png",
+         name: "HL",
+         pipeline_name: "./HL.png",
+      },
+      {
+         file: "sampledata/./FX2.png",
+         name: "FX2",
+         params: {
+            usage_type: "Data",
+         },
+         pipeline_name: "./FX2.png",
+      },
+   ],
+   version: "0.52:1",
+}

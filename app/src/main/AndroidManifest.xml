@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.zukkey.arcoresampleforprimer">
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+    android:value="true" />
+
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera" />
+  <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+  <uses-feature android:name="android:minSdkVersion=14"/>
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <meta-data android:name="com.google.ar.core" android:value="optional" />
+    <meta-data
+      android:name="com.google.android.ar.API_KEY"
+      android:value="Set Your API Key"/>
+
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".java.ModelActivity"/>
+    <activity android:name=".java.ViewActivity"/>
+    <activity android:name=".java.WebActivity"/>
+    <activity android:name=".java.AugmentedImageActivity"/>
+    <activity android:name=".java.CloudAnchorActivity"/>
+    <activity android:name=".kotlin.ModelActivity"/>
+    <activity android:name=".kotlin.ViewActivity"/>
+    <activity android:name=".kotlin.WebActivity"/>
+    <activity android:name=".kotlin.AugmentedImageActivity"/>
+    <activity android:name=".kotlin.CloudAnchorActivity"/>
+  </application>
+
+
+</manifest>

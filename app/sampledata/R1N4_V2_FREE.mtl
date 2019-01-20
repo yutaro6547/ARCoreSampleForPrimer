@@ -1,0 +1,534 @@
+# Blender MTL File: 'R1N4_V2_FREE.blend'
+# Material Count: 44
+
+newmtl EF:FX/Cheek/Brush1/Transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./FX.png
+map_d ./FX2.png
+
+newmtl EF:FX/Cheek/Brush2/Transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./FX.png
+map_d ./FX2.png
+
+newmtl EF:FX/Eye/Heart/Transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./FX.png
+map_d ./FX2.png
+
+newmtl EF:FX/Eye/Star/Transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./FX.png
+map_d ./FX2.png
+
+newmtl EF:FX/Head/lll/Transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./FX.png
+map_d ./FX2.png
+
+newmtl EF:FX/Tear1/Transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./FX.png
+map_d ./FX2.png
+refl ./SphereMucous.png
+
+newmtl EF:face/eyes/HL
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.200000 0.200000 0.200000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./HL.png
+map_d ./HL2.png
+
+newmtl EF:face/eyes/pupil
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.200000 0.200000 0.200000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./pupil.png
+
+newmtl EF:face/eyes/white
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.200000 0.200000 0.200000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereCloth1.png
+
+newmtl F:face/hair/eyebrows
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereCloth1.png
+
+newmtl F:face/hair/eyelash
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereCloth1.png
+
+newmtl F:face/innermouth/mucous
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereMucous.png
+
+newmtl F:face/skin/noedge
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereSkin.png
+
+newmtl F:face/teeth/mucous
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereMucous.png
+
+newmtl F:face/tongue/mucous
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereMucous.png
+
+newmtl ImagineGirls_License_White
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 0
+map_Kd ./ImagineGirls_License_White.png
+map_d ./ImagineGirls_License_White2.png
+
+newmtl cos1/body/nail
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./underwear.png
+refl ./SphereCloth3.png
+
+newmtl cos1/body/skin
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./cos1_body.png
+refl ./SphereSkin.png
+
+newmtl cos1/kneesocks
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/accent
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereMetal.png
+
+newmtl cos1/parker/border
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/border_costume1.png
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/folded/accent
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereMetal.png
+
+newmtl cos1/parker/folded/border
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/folded/border_costume1.png
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/folded/main
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/folded/metal
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereMetal.png
+
+newmtl cos1/parker/main
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereCloth1.png
+
+newmtl cos1/parker/metal
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./costume1.png
+refl ./SphereMetal.png
+
+newmtl cos1/shoes/cloth
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.808612
+illum 2
+map_Kd ./accessories.png
+refl ./SphereCloth1.png
+
+newmtl cos1/shoes/cloth_accessories
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.808612
+illum 2
+map_Kd ./accessories.png
+refl ./SphereCloth1.png
+
+newmtl cos1/shoes/leather
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.808612
+illum 2
+map_Kd ./accessories.png
+refl ./SphereCloth2.png
+
+newmtl cos1/shoes/plastics
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.808612
+illum 2
+map_Kd ./accessories.png
+refl ./SphereCloth3.png
+
+newmtl cos1/shoes/rubber
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.808612
+illum 2
+map_Kd ./accessories.png
+refl ./SphereCloth2.png
+
+newmtl cos1/shoes/rubber_accessories
+Ns 96.078431
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.808612
+illum 2
+map_Kd ./accessories.png
+refl ./SphereCloth2.png
+
+newmtl cos1/underwear/border
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./underwear.png
+refl ./SphereCloth1.png
+
+newmtl cos1/underwear/main
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./underwear.png
+refl ./SphereCloth1.png
+
+newmtl cos1/underwear/metalic
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./underwear.png
+refl ./SphereMetal.png
+
+newmtl face/skin
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./face.png
+refl ./SphereSkin.png
+
+newmtl hair0
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./hair0.png
+map_d ./hair02.png
+refl ./SphereHair.png
+
+newmtl hair0/front
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./hair0.png
+map_d ./hair02.png
+refl ./SphereHair.png
+
+newmtl headset/black
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ./accessories.png
+refl ./SphereMetal.png
+
+newmtl headset/transparent
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./accessories.png
+map_d ./accessories2.png
+refl ./SphereMetal.png
+
+newmtl headset/white
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd ./accessories.png
+map_d ./accessories2.png
+refl ./SphereMetal.png

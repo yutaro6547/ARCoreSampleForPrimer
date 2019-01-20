@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">ARCoreSampleForPrimer</string>
+  <string name="default_room">Hostされていません</string>
+  <string name="select_room">現在のRoom: %1$s</string>
+</resources>
