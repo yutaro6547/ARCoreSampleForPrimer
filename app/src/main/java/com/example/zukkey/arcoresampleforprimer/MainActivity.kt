@@ -1,8 +1,8 @@
 package com.example.zukkey.arcoresampleforprimer
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.databinding.DataBindingUtil
+import androidx.databinding.DataBindingUtil
 import com.example.zukkey.arcoresampleforprimer.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

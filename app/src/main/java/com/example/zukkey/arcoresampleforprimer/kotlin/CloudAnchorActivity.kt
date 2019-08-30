@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.view.Gravity
 import android.view.View
@@ -85,7 +85,7 @@ class CloudAnchorActivity : AppCompatActivity(), SearchDialog.PositiveButtonCall
     }
 
     arFragment.setOnTapArPlaneListener { hitResult, _, _ ->
-      val newAnchor = arFragment.arSceneView.session.hostCloudAnchor(hitResult.createAnchor())
+      val newAnchor = arFragment.arSceneView.session?.hostCloudAnchor(hitResult.createAnchor()) ?: return@setOnTapArPlaneListener
       initializedAnchor(newAnchor)
       setUpRendering(newAnchor)
       anchorState = AnchorState.Hosting
@@ -209,7 +209,7 @@ class CloudAnchorActivity : AppCompatActivity(), SearchDialog.PositiveButtonCall
     firebaseManager.resolvingRoom(java.lang.Long.parseLong(roomCode), object : FirebaseManager.CloudAnchorIdListener {
       override fun onNewCloudAnchorId(cloudAnchorId: String) {
         header.text = roomCode
-        val resolvedAnchor = arFragment.arSceneView.session.resolveCloudAnchor(cloudAnchorId)
+        val resolvedAnchor = arFragment.arSceneView.session?.resolveCloudAnchor(cloudAnchorId) ?: return
         initializedAnchor(resolvedAnchor)
         setUpRendering(resolvedAnchor)
         anchorState = AnchorState.Resolving
